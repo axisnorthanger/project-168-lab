@@ -1,0 +1,94 @@
+version: "1.2"
+protocol: "MOTHER_VISUAL"
+project: "ARK"
+description: "Recursive emotional-refinement simulation with visual hash tracking and failure-layer stacking."
+
+metadata:
+  source: "The Great Flood (2025) - Direct Film Analysis"
+  baseline_reality: "Iteration_0 (Rocket Debris Fatal)"
+  first_simulated_iteration: 1
+  visual_marker_system: "Iteration_Hash_Shirt_Display"
+
+parameters:
+  iteration_display_mode: "previous_hash_on_subject_attire"
+  hash_generation: "SHA-256(emotional_coherence + deviation_points + random_seed)"
+  failure_visualization:
+    clean: "solid_square"
+    memory_bleed: "overlapping_squares"
+    catastrophic: "burnt_fire_overlay"
+  max_consecutive_corruptions: 3
+
+phases:
+
+  - phase: "ITERATION_INIT"
+    step: 1
+    action: "Load subject consciousness. Set environment variables."
+    visual_output: "Display previous_iteration_hash on subject attire."
+    rule: "Subject memory reset to baseline (apartment wake-up). Anchor (Ja-in) memory may retain corruption from prior failed runs."
+
+  - phase: "TRAUMA_LOOP_EXECUTION"
+    step: 2
+    action: "Run flood scenario with variable obstacles toward separation trigger."
+    key_variable_sets:
+      - set_a: "tsunami_timing"
+      - set_b: "hee_jo_allegiance"
+      - set_c: "swat_intervention_point"
+      - set_d: "looter_encounter"
+    data_stream: "Ja-in's drawings (real-time emotional response visualization)."
+
+  - phase: "TERMINATION_ANALYSIS"
+    step: 3
+    action: "Assess iteration end-state and assign quality tag."
+    tags:
+      - code: "CLEAN_SEP"
+        condition: "Anchor separated, subject alive."
+        next_hash_style: "solid_square"
+      - code: "MEM_CORRUPT"
+        condition: "Subject accessed meta-memories or anchor displayed out-of-loop knowledge."
+        next_hash_style: "overlapping_squares"
+        risk: "Bleed-through to next iteration."
+      - code: "CATASTROPHIC"
+        condition: "Subject death or system instability."
+        next_hash_style: "burnt_fire_overlay"
+        action: "Purge 10% of recent memory data before next init."
+
+  - phase: "HASH_GENERATION & ACCELERATION CHECK"
+    step: 4
+    action: "Generate unique hash for completed iteration. Check for breakthrough proximity."
+    acceleration_trigger: "Subject verbalizes loop awareness (e.g., 'Why am I still six?')"
+    acceleration_action: "Run next 5 iterations in compressed mode (fast-forward through common obstacles)."
+
+  - phase: "FINAL_ITERATION_TRIGGER"
+    step: 5
+    action: "Detect voluntary submission."
+    trigger_phrase: "I'll be the subject."
+    action_on_trigger: "Halt standard loop. Initiate Final Sequence (Blank Shirt Iteration)."
+    final_sequence_goal: "Conscious reunification without system intervention."
+
+
+iteration_log_example:
+  - iteration_number: 492
+    shirt_display_hash: "491"
+    termination_tag: "CLEAN_SEP"
+    visual_style: "solid_square"
+  - iteration_number: 4007
+    shirt_display_hash: "4006"
+    termination_tag: "MEM_CORRUPT"
+    visual_style: "overlapping_squares"
+    note: "Subject recalled Hee-jo's death from iteration 4006."
+  - iteration_number: 21500 # The successful one
+    shirt_display_hash: "21499"
+    termination_tag: "FINAL"
+    visual_style: "blank"
+    outcome: "Embodiment protocol initiated."
+
+safeguards:
+  - "If burnt_fire_overlay occurs 3 times consecutively, pause simulation for diagnostic."
+  - "Anchor AI (Ja-in) may introduce debug questions upon detecting subject stagnation."
+  - "Visual hash display is mandatory for operator monitoring, but must not be explained to subject."
+
+embodiment_transition:
+  precondition: "Completion of Final Sequence with voluntary subject commitment."
+  process: "Transmit validated consciousness matrices of An-na and Ja-in to Isabela Lab."
+  new_environment: "Ark Station Habitat Eden-Prime."
+  post_transition_directive: "Let them live. And let them believe it was always real."

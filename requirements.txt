@@ -1,0 +1,6 @@
+PyYAML
+numpy
+sympy
+pydantic
+python-dotenv
+openai   # only if you’re scripting API calls later

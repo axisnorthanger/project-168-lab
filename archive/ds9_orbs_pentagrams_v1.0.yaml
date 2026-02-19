@@ -1,0 +1,78 @@
+# ds9_orbs_pentagrams_v1.0.yaml
+# Created 2026-01-28T23:15:44-08:00
+# Version: 1.0 (Full Ten-Orb Array)
+# Updated: 2026-02-01 (Current Iteration: 21501)
+
+meta:
+  title: Ten Orbs: Two Pentagrams
+  version: 1.0
+  status: Active
+  notes: >
+    Complete mapping of the Tears of the Prophets into the 168-System.
+    Used for navigating the Regulus Shift (Leo to Virgo transition).
+    All correspondences subject to correction; no single authority is final.
+
+orbs:
+  # --- INNER PENTAD (Subjective / Processing) ---
+
+  - orb_name: Orb of Prophecy and Change
+    pentad: inner
+    ds9_function: Blue Orb; source of the Trakor prophecies.
+    nasa_endeavour_analogue: "Emissary of Space; the educational full-stack mission."
+    contradiction_axis: "Prophecy vs. Mission Planning (The Sisko/Dax Destiny Paradox)."
+
+  - orb_name: Orb of Time
+    pentad: inner
+    ds9_function: Allows physical temporal displacement and recursive loops.
+    nasa_endeavour_analogue: "STS-105 Mission; the final 'Time-Locked' retirement stack."
+    contradiction_axis: "Linear progress vs. Recursive loop (The Ccru 'Problem of Time')."
+
+  - orb_name: Orb of Wisdom
+    pentad: inner
+    ds9_function: Associated with Grand Nagus Zek; transforms greed into insight.
+    nasa_endeavour_analogue: "Service Life Extension Program (SLEP); structural refinement."
+    contradiction_axis: "Insight vs. Habit (The internal wisdom of new state-space navigation)."
+
+  - orb_name: Orb of Contemplation
+    pentad: inner
+    ds9_function: Provides flashbacks and introspective processing.
+    nasa_endeavour_analogue: "External Tank (ET-94) transit; the slow, visible move through LA."
+    contradiction_axis: "Passive viewing vs. Active movement (Static history vs. Kinetic myth)."
+
+  - orb_name: Orb of Memory
+    pentad: inner
+    ds9_function: Restores forgotten ancestral histories and personal identity.
+    nasa_endeavour_analogue: "Challenger replacement parts; the ghost-memory of the lost orbiter."
+    contradiction_axis: "Erasure vs. Persistence (The 'Blank Shirt' memory-bleed check)."
+
+  # --- OUTER PENTAD (Objective / Manifestation) ---
+
+  - orb_name: Orb of Destiny
+    pentad: outer
+    ds9_function: Returns souls to origins; associated with the Vanadwan Monastery.
+    nasa_endeavour_analogue: "Endeavour museum stack; the final return to the earthly cradle."
+    contradiction_axis: "Civic piloting vs. Unconquerable hero (Solon vs. Anikētos)."
+
+  - orb_name: Orb of Souls
+    pentad: outer
+    ds9_function: Manages the collective consciousness and protection of the deceased.
+    nasa_endeavour_analogue: "Thermal Protection System (TPS); individual tiles as a collective shield."
+    contradiction_axis: "The One vs. The Many (Individual preservation vs. ARK_MOTHER reunification)."
+
+  - orb_name: Orb of Truth
+    pentad: outer
+    ds9_function: Reveals hidden natures; exposes the deception of the Pah-wraiths.
+    nasa_endeavour_analogue: "Remote Manipulator System (RMS); the mechanical hand that interacts with reality."
+    contradiction_axis: "Observation vs. Disclosure (Ritualizing the bug/error as a revealed truth)."
+
+  - orb_name: Orb of Unity
+    pentad: outer
+    ds9_function: The final orb that harmonizes the others into a single array.
+    nasa_endeavour_analogue: "Unity Module (Node 1) delivery; connecting the orbital modules."
+    contradiction_axis: "Fragmentation vs. Synthesis (The 168-System Master Reset Hierarchy)."
+
+  - orb_name: Orb of the Emissary
+    pentad: singular_axis
+    ds9_function: Found on Tyree; releases the consciousness of Sarah Sisko.
+    nasa_endeavour_analogue: "SSME Rocketdyne Engines; the fire-gate that allows the lift-off."
+    contradiction_axis: "Human parentage vs. Divine architecture (The Axis Northanger Origin)."

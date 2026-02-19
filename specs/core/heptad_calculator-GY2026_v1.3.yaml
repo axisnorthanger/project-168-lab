@@ -1,0 +1,409 @@
+# heptad_calculator-GY2026_v1.3.yaml
+# Single Source of Truth for Heptarchic Bonorum calculations
+# Updated: 2025-12-31 (Feature: Life-Cycle vs Annual Reset Distinction)
+# Created: 2025-12-24 (Winter Solstice 2025)
+
+meta:
+  version: "1.3"
+  created: "2025-12-24"
+  last_updated: "2025-12-31"
+  status: "Active"
+  description: "Canonical calculator with clear life-cycle/annual reset distinction"
+  maintainer: "HEP_BLUMAZA"
+  changes_from_v1_2:
+    - "ADDED: Clear distinction between life-cycle (never resets) and annual (Winter Solstice reset)"
+    - "ADDED: Reset hierarchy framework (life/annual/daily)"
+    - "ENHANCED: Life-cycle analysis with permanent vs cyclical components"
+    - "ADDED: Entity record structure with separate lifetime/annual components"
+    - "UPDATED: Examples show new separation paradigm"
+
+# Timezone handling (UNCHANGED from v1.2)
+timezone_handling:
+  canonical_storage: "UTC"
+  calculation_basis: "Local time at target location"
+  user_input_format: "Local time (any timezone)"
+  note: "Weekday and seconds-since-midnight use LOCAL time, not UTC time"
+
+# Tabula Angelorum Bonorum - Complete 49 entities (UNCHANGED)
+tabula_bonorum:
+  structure: "7 heptads x 7 entities (King + Prince + 5 Ministers)"
+  note: "All names start with B, 7 letters each"
+  
+  heptads:
+    1:  # Venus
+      king: "BALIGON"
+      prince: "BORNOGO"
+      ministers: ["BAPNIDO", "BESGEME", "BLUMAPO", "BMAMGAL", "BASLEDF"]
+        
+    2:  # Sun
+      king: "BOBOGEL"
+      prince: "BEFAFES"
+      ministers: ["BASMELO", "BERNOLE", "BRANGLO", "BRISFLI", "BNAGOLE"]
+        
+    3:  # Mars
+      king: "BABALEL"
+      prince: "BVTMONO"
+      ministers: ["BAZPAMA", "BLINTOM", "BRAGIOP", "BERMALE", "BONEFON"]
+        
+    4:  # Jupiter
+      king: "BYNEPOR"
+      prince: "BLISDON"
+      ministers: ["BALCEOR", "BELMARA", "BENPAGI", "BARNAFA", "BMILGES"]
+        
+    5:  # Mercury
+      king: "BNASPOL"
+      prince: "BRORGES"
+      ministers: ["BASPALO", "BINODAB", "BARIGES", "BINOFON", "BALDAGO"]
+        
+    6:  # Saturn
+      king: "BNAPSEN"
+      prince: "BRALGES"
+      ministers: ["BORMILA", "BUSCNAB", "BMINPOL", "BARTIRO", "BLIIGAN"]
+        
+    7:  # Moon
+      king: "BLVMAZA"
+      prince: "BAGENOL"
+      ministers: ["BABLIBO", "BUSDUNA", "BLINGEF", "BARFORT", "BAMNODE"]
+
+# Temporal mapping (UNCHANGED from v1.2 - indexing clarified)
+temporal_mapping:
+  weekday_to_heptad:
+    Sunday: 2
+    Monday: 7  
+    Tuesday: 3
+    Wednesday: 5
+    Thursday: 4
+    Friday: 1
+    Saturday: 6
+    
+  segments:
+    duration_seconds: 12342.85714285714
+    duration_hms: "3:25:42.857"
+    mapping_clarification: |
+      Segment 0 → King → ministers[N/A]
+      Segment 1 → Prince → ministers[N/A]
+      Segment 2 → Minister 1 → ministers[0]
+      Segment 3 → Minister 2 → ministers[1]
+      Segment 4 → Minister 3 → ministers[2]
+      Segment 5 → Minister 4 → ministers[3]
+      Segment 6 → Minister 5 → ministers[4]
+
+# Symbolic Election Framework (UNCHANGED from v1.2)
+symbolic_election:
+  description: "Oracular override protocol for exceptional cases"
+  principle: "Glitches are not bugs—they are dungeon features to be exploited or ritualized"
+  conditions_for_election: [...]
+  election_process: [...]
+  precedent_cases:
+    perplexity_ai_2022: [...]
+
+# NEW: RESET HIERARCHY FRAMEWORK
+reset_hierarchy:
+  description: "Clear distinction between temporal layers with different reset frequencies"
+  
+  layers:
+    
+    # LAYER 1: LIFE-CYCLE (NEVER RESETS)
+    life_cycle:
+      frequency: "Never resets"
+      components:
+        - "Birth moment Bonorum (technical + elected)"
+        - "Symbolic election history"
+        - "Dominant heptad affinity patterns"
+        - "Role archetype identification (King/Prince/Minister)"
+      calculation: "Once at birth, modified only by elections"
+      purpose: "Entity identity, soul journey, permanent signature"
+      storage: "Permanent record, accumulates over lifetime"
+      
+    # LAYER 2: ANNUAL CONTEXT (RESETS WINTER SOLSTICE)
+    annual_context:
+      frequency: "Resets every Winter Solstice (approx Dec 21)"
+      trigger: "Bonorum active at Winter Solstice moment (15:03 UTC)"
+      components:
+        - "Current year ruler (Bonorum at solstice)"
+        - "Annual theme (based on heptad)"
+        - "Year progression (segment position)"
+      calculation: "Recalculated each Winter Solstice"
+      purpose: "Yearly thematic framing, annual cycles"
+      storage: "Annual history array, current year context"
+      
+    # LAYER 3: DAILY CURRENT (RESETS EVERY 3h25m)
+    daily_current:
+      frequency: "Resets every 3h25m42.857s (7 segments/day)"
+      components:
+        - "Current ruling Bonorum"
+        - "Segment position (0-6)"
+        - "Time until next segment"
+      calculation: "Continuous based on local time"
+      purpose: "Immediate influence, daily guidance"
+      storage: "Current state, historical logs optional"
+  
+  interaction_principles:
+    1: "Daily calculations occur WITHIN annual context"
+    2: "Annual contexts accumulate as life-cycle history"
+    3: "Life-cycle provides identity lens for interpretation"
+    4: "Elections modify life-cycle, not annual/daily calculations"
+    5: "All layers use same Tabula Bonorum for consistency"
+
+# ENHANCED: Life-Cycle Analysis with Clear Separation
+life_cycle_framework:
+  note: "REVISED: Clear separation of non-resetting (life) vs resetting (annual) components"
+  
+  entity_record_structure:
+    
+    # PART A: PERMANENT LIFE-CYCLE (Never Resets)
+    permanent_life_components:
+      birth_signature:
+        birth_date: "YYYY-MM-DD"
+        birth_time: "HH:MM:SS"  # if known
+        location_timezone: "Timezone"
+        
+        bonorum_calculations:
+          technical: "Calculated Bonorum at birth moment"
+          elected: "If symbolic election applied"
+          election_rationale: "If election occurred"
+          
+        birth_context:
+          winter_solstice_preceding: "YYYY-12-21"
+          solstice_ruler: "Bonorum at that solstice"
+          annual_theme: "Theme for birth year"
+      
+      identity_patterns:
+        dominant_heptad: "Most frequent/strongest heptad resonance"
+        role_archetype: "Primary position pattern (King/Prince/Minister)"
+        symbolic_elections: "Array of election events"
+        life_themes: "Emergent patterns from analysis"
+        
+      evolution_tracking:
+        heptad_progression: "Sequence of significant heptad influences"
+        election_timeline: "When and why elections occurred"
+        pattern_development: "How identity patterns emerge over time"
+    
+    # PART B: ANNUAL CYCLES (Resets Each Winter Solstice)
+    annual_components:
+      current_year_context:
+        winter_solstice: "YYYY-12-21"
+        year_ruler: "Bonorum active at solstice"
+        heptad: "Number (1-7)"
+        planetary_ruler: "Venus/Sun/Mars/Jupiter/Mercury/Saturn/Moon"
+        annual_theme: "Thematic focus for the year"
+        
+      historical_years:
+        type: "Array of annual contexts"
+        storage: "Chronological from birth to present"
+        example_entry:
+          year: "2025-2026"
+          solstice: "2025-12-21T15:03:00Z"
+          ruler: "BOBOGEL"
+          heptad: 2
+          theme: "Sun heptad year: illumination, leadership, revelation"
+          
+      annual_progression:
+        current_position: "Days since last Winter Solstice"
+        segment_in_year: "Current segment position in annual cycle"
+        next_reset: "Date/time of next Winter Solstice"
+    
+    # PART C: CURRENT STATE (Resets Daily)
+    current_state:
+      calculation_basis: "Local time at entity location"
+      current_bonorum: "Ruling Bonorum right now"
+      segment_position: "0-6 (King through Minister 5)"
+      time_until_next: "Seconds until next segment"
+      daily_context: "Interpretation within annual context"
+  
+  # NEW: Interpretation Methodology
+  interpretation_methodology:
+    step_1: "Identify life-cycle patterns (permanent identity)"
+    step_2: "Apply current annual context (yearly theme)"
+    step_3: "Calculate current Bonorum (immediate influence)"
+    step_4: "Interpret current through life+annual lenses"
+    step_5: "Note interactions between layers"
+    
+  example_interpretation_template: |
+    For [Entity Name] on [Date]:
+    
+    LIFE-CYCLE CONTEXT (Never Resets):
+    - Birth signature: [Bonorum] as [Role] in [Heptad]
+    - Dominant pattern: [Pattern] with [Theme]
+    - Election history: [Number] elections, last: [Date]
+    
+    ANNUAL CONTEXT (Current Year):
+    - Year ruler: [Bonorum] (since [Solstice Date])
+    - Annual theme: [Theme] ([Heptad] energy)
+    - Year progress: [Days] days since solstice
+    
+    CURRENT INFLUENCE (Right Now):
+    - Ruling Bonorum: [Bonorum] as [Role]
+    - Segment: [Number] ([Position Name])
+    - Duration: [Time] until next segment
+    
+    SYNTHESIZED INTERPRETATION:
+    - [Current Bonorum] within [Annual Theme] context
+    - For someone with [Life-Cycle Pattern] identity
+    - Suggests: [Combined interpretation]
+
+# Calculation functions - UPDATED for new framework
+calculation:
+  # Core calculation (UNCHANGED)
+  get_current_bonorum:
+    parameters: ["datetime_local", "timezone_identifier", "allow_election=false"]
+    description: "Returns current Bonorum (Layer 3 - Daily)"
+    steps: [...]
+    
+  # NEW: Life-Cycle calculations
+  calculate_life_cycle:
+    parameters: ["birth_datetime_local", "timezone", "include_elections=true"]
+    description: "Calculates permanent life-cycle components"
+    returns: "permanent_life_components structure"
+    steps:
+      1: "Calculate birth Bonorum (technical)"
+      2: "Check for birth election (symbolic override)"
+      3: "Determine birth Winter Solstice context"
+      4: "Initialize life-cycle record"
+      5: "Return permanent components (never reset)"
+    
+  # NEW: Annual context calculations
+  calculate_annual_context:
+    parameters: ["target_datetime"]
+    description: "Calculates annual context for given date"
+    returns: "annual_components structure"
+    steps:
+      1: "Find most recent Winter Solstice before target date"
+      2: "Calculate Bonorum at solstice moment (15:03 UTC)"
+      3: "Determine days since solstice"
+      4: "Calculate current segment position in annual cycle"
+      5: "Return annual context"
+    
+  # NEW: Complete entity analysis
+  analyze_entity_complete:
+    parameters: ["entity_data", "current_datetime_local"]
+    description: "Full analysis with all three layers"
+    returns: "Complete entity record with all components"
+    steps:
+      1: "Calculate permanent life-cycle from birth"
+      2: "Calculate current annual context"
+      3: "Calculate current daily Bonorum"
+      4: "Assemble full interpretation"
+      5: "Return structured analysis"
+
+# Examples - UPDATED for new framework
+examples:
+  
+  # Example 1: Complete Entity Analysis
+  example_complete_analysis:
+    entity: "Sample Entity"
+    birth: "1958-06-08 12:00:00 PDT"
+    current_time: "2025-12-31 15:00:00 PST"
+    
+    analysis:
+      
+      # Layer 1: Life-Cycle (Permanent)
+      life_cycle:
+        birth_signature:
+          date: "1958-06-08"
+          time: "12:00:00"
+          timezone: "America/Los_Angeles"
+          technical_bonorum: "BOBOGEL"
+          elected_bonorum: null
+          birth_wsolstice: "1957-12-21"
+          solstice_ruler: "BALIGON"
+        
+        identity_patterns:
+          dominant_heptad: "Sun (2)"
+          role_archetype: "King"
+          elections: []
+          life_themes: ["Leadership", "Illumination"]
+      
+      # Layer 2: Annual Context (Current Year)
+      annual_context:
+        current_year:
+          solstice: "2025-12-21T15:03:00Z"
+          ruler: "BOBOGEL"
+          heptad: 2
+          theme: "Sun heptad: illumination year"
+        
+        year_progress:
+          days_since: 10
+          segment_in_year: "Segment 2 (still early)"
+        
+        historical: [...]
+      
+      # Layer 3: Current State (Right Now)
+      current_state:
+        datetime_local: "2025-12-31 15:00:00 PST"
+        bonorum: "BINOFON"
+        segment: 4
+        position: "Minister 3"
+        time_until_next: "1h25m42s"
+      
+      # Synthesis
+      interpretation: |
+        Right now: BINOFON (Mercury Minister 3) - practical application
+        Within: Sun heptad year (BOBOGEL) - illumination context
+        For: Sun King life signature - natural leader
+        Suggests: Practical implementation of leadership insights
+        
+  # Example 2: Reset Comparison
+  example_reset_comparison:
+    scenario: "Same entity, different times showing what resets"
+    
+    time_1: "2025-12-31 15:00:00 PST"
+    analysis_1:
+      life_cycle: "UNCHANGED (BOBOGEL birth)"  # Never resets
+      annual_context: "BOBOGEL year"  # Since 2025-12-21
+      current: "BINOFON"  # Changes every 3h25m
+    
+    time_2: "2026-01-01 09:00:00 PST"
+    analysis_2:
+      life_cycle: "UNCHANGED (BOBOGEL birth)"  # Still never resets
+      annual_context: "BOBOGEL year"  # Still same year
+      current: "BASPALO"  # Changed (different segment)
+    
+    time_3: "2026-12-22 15:00:00 PST"
+    analysis_3:
+      life_cycle: "UNCHANGED (BOBOGEL birth)"  # Never resets
+      annual_context: "NEW RULER"  # Reset at 2026 Winter Solstice
+      current: "[Whatever]"  # Changes as usual
+
+# Bug documentation (UPDATED with framework context)
+bug_history:
+  2025-12-24:
+    description: "+2 offset in heptad indexing for Thursday"
+    fix: "Corrected weekday_to_heptad mapping"
+    significance: "Technical calculation accuracy"
+    
+  2025-12-31:
+    description: "Segment labeling confusion"
+    fix: "Clarified mapping documentation"
+    significance: "Led to symbolic election protocol"
+    
+  framework_clarification_2025_12_31:
+    description: "Life-cycle vs annual reset confusion"
+    clarification: "Added reset hierarchy framework"
+    significance: "Clear separation of permanent identity vs cyclical contexts"
+
+# Integration points - UPDATED
+integration:
+  bonorum_protocol: "/specs/bonorum_temporal_protocol-GY2026_v1.4.yaml"
+  cheat_sheet: "/specs/168-System_Master_Cheat_Sheet-GY2026_v5.0.yaml"
+  note: "This calculator now provides clear reset hierarchy for protocol integration"
+
+# Version history
+version_history:
+  v1.0 (2025-12-24):
+    - Created as Single Source of Truth for Bonorum calculations
+    
+  v1.1 (2025-12-25):
+    - Added timezone handling section
+    
+  v1.2 (2025-12-31):
+    - Added symbolic election framework
+    - Clarified segment indexing
+    
+  v1.3 (2025-12-31):
+    - ADDED: Reset hierarchy framework (life/annual/daily)
+    - ADDED: Clear life-cycle vs annual reset distinction
+    - ADDED: Entity record structure with permanent vs cyclical components
+    - ADDED: Interpretation methodology for layered analysis
+    - UPDATED: Examples show new separation paradigm
+    - UPDATED: Integration references to v1.4/v5.0 protocols

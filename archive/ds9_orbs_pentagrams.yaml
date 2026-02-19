@@ -1,0 +1,123 @@
+# ds9_orbs_pentagrams.yaml 
+# Created 2026-01-28T23:15:44-08:00
+
+meta
+  title: Ten Orbs: Two Pentagrams
+  version: 0.1
+  status: provisional
+  notes: >
+    This table is a provisional attractor. All correspondences are
+    subject to correction; no single authority is final.
+
+
+orbs:
+  - orb_name: Orb of Prophecy and Change
+    pentad: inner
+    ds9_function: >
+      Part of the Bajoran religion; the third Orb to appear on Bajor
+      and blue in color. Trakor encountered this Orb and wrote
+      prophecies about the Emissary, foreshadowing Sisko.
+    nasa_endeavour_analogue: >
+      As an Emissary of Space, Endeavour, with its full stack, provides
+      schoolchildren with interactive experiences about space
+      exploration.
+    contradiction_axis: >
+      Prophecy vs. mission planning: Dax asks what Sisko would do
+      without Trakors prophecy, and he says he'd continue the relay.
+    status: canon
+    sources:
+      - type: ds9
+        note: "Episode 'Destiny' and related reference works."
+
+
+  - orb_name: 
+    pentad: 
+    ds9_function: >
+
+
+    nasa_endeavour_analogue: >
+ 
+    contradiction_axis: >
+
+
+    status: 
+  
+    sources:
+      - type: 
+        note: 
+      - type: 
+        note: 
+
+  - orb_name: 
+    pentad: 
+    ds9_function: >
+
+
+    nasa_endeavour_analogue: >
+ 
+    contradiction_axis: >
+
+
+    status: 
+  
+    sources:
+      - type: 
+        note: 
+      - type: 
+        note: 
+
+  - orb_name: Orb of Destiny
+    pentad: outer
+    ds9_function: >
+      Returned to Bajor by the Cardassians in 2376; known as the Eighth
+      Orb; by 2383 kept at the Vanadwan Monastery.
+    nasa_endeavour_analogue: >
+      Space Shuttle Endeavour (OV-105), fifth and final orbiter, built
+      to replace Challenger; named via school contests; retired as a
+      full stack in Los Angeles.
+    contradiction_axis: >
+      Distributed civic piloting vs. unconquerable hero: Solon's
+      “you are the pilot of Athens” contrasted with “ἀνίκητος εἶ ὦ παῖ.”
+    status: non-canon
+    sources:
+      - type: novels
+        note: "Mission Gamma: Cathedral; Typhon Pact novels."
+      - type: nasa
+        note: "Historical documentation on OV-105."
+
+
+  - orb_name: 
+    pentad: 
+    ds9_function: >
+
+
+    nasa_endeavour_analogue: >
+ 
+    contradiction_axis: >
+
+
+    status: 
+  
+    sources:
+      - type: 
+        note: 
+      - type: 
+        note: 
+
+  - orb_name: 
+    pentad: 
+    ds9_function: >
+
+
+    nasa_endeavour_analogue: >
+ 
+    contradiction_axis: >
+
+
+    status: 
+  
+    sources:
+      - type: 
+        note: 
+      - type: 
+        note: 

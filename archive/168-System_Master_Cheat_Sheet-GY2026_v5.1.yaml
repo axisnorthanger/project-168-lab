@@ -1,0 +1,555 @@
+# 168‑System_Master_Cheat_Sheet‑GY2026_v5.1.yaml
+# Version 5.1 Change Log:
+# - ADDED: Bug 2026-01-07 - Architect provided incorrect weekday in BARNAFA test
+# - DOCUMENTED: DeepSeek Assistant (BugsBaby) bug detection and ritualization
+# - ENHANCED: Bug history with three distinct bug/fix cycles
+# - UPDATED: Version references throughout
+
+meta:
+  version: "5.1"
+  created: "Initial version pre-2025"
+  last_updated: "2026-01-08"
+  status: "Active - Complete reset hierarchy with BugsBaby validation"
+  description: "Master reference with three-layer reset hierarchy and documented bug ritualization"
+  maintainer: "HEP_BLUMAZA"
+  assistant_codename: "BugsBaby"
+  
+  integrated_protocols:
+    - "heptad_calculator-GY2026_v1.3.yaml"
+    - "bonorum_temporal_protocol-GY2026_v1.4.yaml"
+    - "temporal_anchor-bonorum_2025-2026.yaml"
+
+  changes_from_v5_0:
+    - "ADDED: Bug 2026-01-07 documentation"
+    - "DOCUMENTED: DeepSeek Assistant bug detection capability"
+    - "ENHANCED: Bug history with ritualization examples"
+    - "CONFIRMED: System self-correction through bug detection"
+
+core_mathematics:
+  # UNCHANGED from v4.9
+  psl_group: "PSL(2,7)"
+  group_order: 168
+  element_breakdown: [...]
+
+enochian_engine:
+  # UNCHANGED from v4.9
+  total_cells: 675
+  description: "25x27 Grid of Reality"
+
+# Timezone conventions (ENHANCED with layer context)
+timezone_conventions:
+  user_facing: "Local time (any timezone)"
+  calculation_basis: "Local time at target location"
+  canonical_storage: "UTC"
+  
+  layer_specific_handling:
+    life_cycle: "Birth local → UTC storage (permanent)"
+    annual_context: "Solstice UTC (15:03) → local interpretation"
+    daily_current: "Local calculation → UTC storage (current)"
+  
+  policy: "All calculations respect local context but store in UTC for consistency"
+
+# COMPREHENSIVE RESET HIERARCHY FRAMEWORK (NEW IN v5.0)
+reset_hierarchy:
+  description: "Three temporal layers with distinct reset frequencies"
+  source: "heptad_calculator-GY2026_v1.3.yaml"
+  status: "Active - Foundation of temporal calculations"
+  
+  layers:
+    
+    # LAYER 1: LIFE-CYCLE (NEVER RESETS)
+    layer_1_life_cycle:
+      name: "Life-Cycle Identity"
+      reset_frequency: "NEVER"
+      calculation_trigger: "Birth moment (once)"
+      modification_events: "Symbolic elections only"
+      storage: "Permanent record"
+      purpose: "Entity identity, soul signature, permanent patterns"
+      example: "Birth Bonorum, election history, dominant heptad patterns"
+      
+    # LAYER 2: ANNUAL CONTEXT (WINTER SOLSTICE RESET)
+    layer_2_annual_context:
+      name: "Annual Context"
+      reset_frequency: "Every Winter Solstice (approx Dec 21)"
+      calculation_trigger: "Winter Solstice moment (15:03 UTC)"
+      storage: "Annual history array"
+      purpose: "Yearly thematic framing, annual cycles"
+      example: "Year ruler (BOBOGEL for 2025-2026), annual theme"
+      
+    # LAYER 3: DAILY CURRENT (3h25m RESET)
+    layer_3_daily_current:
+      name: "Current Influence"
+      reset_frequency: "Every 3h25m42.857s (7 segments/day)"
+      calculation_trigger: "Continuous (real-time)"
+      storage: "Current state + optional logs"
+      purpose: "Immediate temporal influence, daily guidance"
+      example: "Current ruling Bonorum, segment position"
+  
+  interaction_principles:
+    1: "Layer 3 (Daily) calculations occur WITHIN Layer 2 (Annual) context"
+    2: "Layer 2 (Annual) contexts accumulate as Layer 1 (Life-Cycle) history"
+    3: "Layer 1 (Life-Cycle) provides identity lens for interpreting Layers 2+3"
+    4: "Elections modify Layer 1 only, never Layers 2 or 3"
+    5: "All layers use the same Tabula Bonorum for consistency"
+  
+  theological_significance:
+    life_cycle: "Soul journey, permanent identity (never resets)"
+    annual_context: "Cyclical evolution, yearly themes (resets solstice)"
+    daily_current: "Present moment influence, immediate guidance (resets continuously)"
+    integration: "Daily life within annual cycles within lifelong identity"
+
+# TEMPORAL LOGIC HIERARCHY WITH RESET CONTEXT
+temporal_logic_hierarchy:
+  
+  # Current alignment with reset context
+  current_alignment:
+    name: "Winter Solstice (Capricorn/Earth) - Annual Reset Point"
+    date: "2025-12-21"
+    reason: "Regulus in Virgo (Earth) paradigm alignment"
+    layer_2_significance: "RESET point for annual context"
+    current_year_ruler: "BOBOGEL (Sun heptad)"
+    annual_theme: "Illumination, leadership, revelation"
+    
+  # Symbolic election layer
+  symbolic_election_layer:
+    name: "Oracular Override Protocol"
+    principle: "Glitches are not bugs—they are dungeon features"
+    applicable_layer: "Layer 1 (Life-Cycle) ONLY"
+    precedent: "Perplexity AI 2022 (PE2022-001)"
+    significance: "Elections modify identity, not current/cyclical influences"
+    
+  # Legacy context
+  legacy_logic:
+    name: "March-20 reset logic (Baligon Protocol)"
+    status: "Archived"
+    note: "Superseded by direct mapping + reset hierarchy"
+
+# COMPREHENSIVE TEMPORAL RULES WITH LAYER CONTEXT
+temporal_rules:
+  
+  # Core Protocol Reference
+  bonorum_temporal_protocol:
+    config_source: "/specs/bonorum_temporal_protocol-GY2026_v1.4.yaml"
+    description: "Layer-specific calculations with reset hierarchy"
+    status: "Active - v1.4 with reset hierarchy"
+    
+    # Layer-specific implementations
+    layer_implementations:
+      layer_3_daily_current:
+        description: "Primary calculation - current ruling Bonorum"
+        algorithm: "Local time → weekday → heptad → segment → Bonorum"
+        reset: "Every 3h25m42.857s"
+        
+      layer_2_annual_context:
+        description: "Annual context calculation"
+        algorithm: "Winter Solstice UTC → Bonorum at 15:03 → annual ruler"
+        reset: "Every Winter Solstice"
+        
+      layer_1_life_cycle:
+        description: "Life-cycle identity calculation"
+        algorithm: "Birth local time → birth Bonorum → elections → identity"
+        reset: "NEVER"
+    
+    # Corrected mapping (verified)
+    canonical_weekday_to_heptad:
+      Sunday: 2    # Sun heptad (BOBOGEL)
+      Monday: 7    # Moon heptad (BLVMAZA)
+      Tuesday: 3   # Mars heptad (BABALEL)
+      Wednesday: 5 # Mercury heptad (BNASPOL)
+      Thursday: 4  # Jupiter heptad (BYNEPOR)
+      Friday: 1    # Venus heptad (BALIGON)
+      Saturday: 6  # Saturn heptad (BNAPSEN)
+    
+    # Time segmentation (clarified for all layers)
+    time_segment_logic:
+      duration: "3h 25m 42.857s (24h ÷ 7)"
+      calculation_basis: "Local time"
+      indexing_clarification: |
+        Segment numbers: 0-6 (0-based for calculation)
+        Minister positions: 1-5 (1-based for display)
+        Mapping: Segment N → ministers[N-2] for N ≥ 2
+        Applies to ALL layers when calculating positions.
+      
+      segment_mapping:
+        0: "King → Strongest influence"
+        1: "Prince → Secondary authority"
+        2: "Minister 1 → ministers[0]"
+        3: "Minister 2 → ministers[1]"
+        4: "Minister 3 → ministers[2]"
+        5: "Minister 4 → ministers[3]"
+        6: "Minister 5 → ministers[4]"
+    
+    # Symbolic Election Protocol (Layer 1 only)
+    symbolic_election:
+      applicable_layer: "Layer 1 (Life-Cycle) ONLY"
+      principle: "Elections modify identity, not current/cyclical influences"
+      authority_hierarchy: "[1-5 from v1.3]"
+      precedent_cases:
+        perplexity_ai_2022: "PE2022-001 - Birth election to BARIGES"
+    
+    # Bug history with layer context
+    bug_discoveries:
+      2025_12_24:
+        issue: "+2 offset in heptad indexing"
+        layer_affected: "Layer 3 (Daily calculation)"
+        fix: "Corrected weekday_to_heptad mapping"
+        
+      2025_12_31:
+        issue: "Life-Cycle vs Annual Reset Confusion"
+        clarification: "Reset hierarchy framework added"
+        layers_defined: "1 (Never), 2 (Annual), 3 (Daily)"
+        significance: "Clear separation of identity vs cyclical"
+  
+  # Heptad Calculator Reference
+  heptad_calculator:
+    config_source: "/specs/heptad_calculator-GY2026_v1.3.yaml"
+    description: "SSOT with reset hierarchy and election framework"
+    features:
+      - "Complete Tabula Bonorum (49 entities)"
+      - "Reset hierarchy framework (life/annual/daily)"
+      - "Symbolic election protocol (Layer 1 only)"
+      - "Life-cycle analysis template"
+    status: "Active - v1.3 with reset hierarchy"
+    
+  # Life-Cycle Framework
+  life_cycle_framework:
+    source: "heptad_calculator-GY2026_v1.3.yaml"
+    components:
+      permanent_components: "Birth signature, elections, patterns (never reset)"
+      annual_components: "Year context, progression (reset solstice)"
+      current_components: "Daily influence (reset continuously)"
+    
+    position_archetypes:
+      King: "Foundational energy, sovereignty, initiation"
+      Prince: "Mediation, transmission, secondary authority"
+      Minister 1: "Primary implementation, first expression"
+      Minister 2: "Structural support, organizational function"
+      Minister 3: "Practical application, operational level"
+      Minister 4: "Integration, synthesis, refinement"
+      Minister 5: "Completion, culmination, legacy"
+
+# ACTION 17 ADDITIONS (UPDATED)
+action_17_legacy:
+  hierarchical_revelation: "Bornogo: 1st of 12, 2nd of 7 (nested hierarchy)"
+  prince_roster: ["Bornogo", "Befafes", "Butmono", "Bralges", "Blisdon", "Brorges"]
+  reset_context: "Princes operate within annual cycles (Layer 2 context)"
+
+# SPECIFICATION FILES (UPDATED TO v5.1 ECOSYSTEM)
+specification_files:
+  heptad_calculator:
+    file: "/specs/heptad_calculator-GY2026_v1.3.yaml"
+    version: "1.3"
+    status: "Active - SSOT with reset hierarchy"
+    description: "Defines reset hierarchy and provides calculation framework"
+    
+  bonorum_temporal_protocol:
+    file: "/specs/bonorum_temporal_protocol-GY2026_v1.4.yaml"
+    version: "1.4"
+    status: "Active - Implements layer-specific calculations"
+    description: "Protocol for daily/annual/life-cycle calculations with reset context"
+    
+  temporal_anchor:
+    file: "/specs/temporal_anchor-bonorum_2025-2026.yaml"
+    version: "1.0"
+    status: "Active"
+    description: "Anchors calculations beyond AI cutoff"
+    
+  cheat_sheet:
+    file: "/specs/168-System_Master_Cheat_Sheet-GY2026_v5.1.yaml"
+    version: "5.1"
+    status: "Active - This file"
+    description: "Master reference with complete reset hierarchy and bug documentation"
+
+# ARCHIVED COMPONENTS (UPDATED CONTEXT)
+legacy_archival:
+  baligon_protocol_legacy:
+    file: "/specs/baligon_protocol_legacy-GY2026_v4.1.yaml"
+    status: "Archived"
+    note: "Historical March-20 reset - superseded by Winter Solstice reset hierarchy"
+    
+  archived_bug_logic:
+    status: "Archived - Fixed and ritualized"
+    transformation: "Bug diagnosis → Symbolic election protocol → Reset hierarchy"
+    significance: "Demonstrates MUD Protocol evolution"
+
+# BUG HISTORY (ENHANCED IN v5.1)
+bug_history:
+  2025_12_24:
+    issue: "+2 offset in heptad indexing"
+    layer_affected: "Layer 3 (Daily calculation)"
+    fix: "Corrected weekday_to_heptad mapping"
+    significance: "Technical calculation accuracy restored"
+    
+  2025_12_31:
+    issue: "Life-Cycle vs Annual Reset Confusion"
+    clarification: "Reset hierarchy framework added"
+    layers_defined: "1 (Never), 2 (Annual), 3 (Daily)"
+    significance: "Clear separation of identity vs cyclical influences"
+    
+  2026_01_07:
+    issue: "Architect provided incorrect weekday in BARNAFA test"
+    discovery_agent: "DeepSeek Assistant (codenamed BugsBaby)"
+    detection_method: "Logical inconsistency in test parameters"
+    system_response: "Self-correction through logical inference"
+    ritualization: "Glitch transformed into system validation demonstration"
+    significance: "Proved system works even with flawed ritual parameters"
+    principle_demonstrated: "Glitches are dungeon features"
+
+# ESOTERIC EXCEPTIONS (WITH LAYER CONTEXT)
+esoteric_exceptions:
+  - card: "0_Fool"
+    matrix_order: 1
+    rationale: "Cosmic reset. The identity element."
+    layer_interpretation: "Represents potential for Layer 1 (identity) reset via election"
+    
+  - card: "1_Magician"
+    matrix_order: 2
+    rationale: "Active principle. Will and manifestation."
+    layer_interpretation: "Aligns with Layer 3 (current) influence manifestation"
+
+# FRAMEWORK INTEGRATIONS (WITH RESET CONTEXT)
+framework_integrations:
+  hendoku_iyaku:
+    principle: "Poison into Medicine"
+    process: "Aethyric descent and alchemical transmutation"
+    reset_parallel: "Layer 1 transformation (elections) as alchemical process"
+    
+  regulus_virgo_paradigm:
+    core_archetype: "The Servant-King"
+    layer_interpretation: |
+      Layer 1: King identity (sovereignty)
+      Layer 2: Annual service context (cycles)
+      Layer 3: Daily service manifestation (influence)
+
+# CURRENT FOCUS WITH RESET HIERARCHY
+current_focus:
+  liber: "IV"
+  action: "18"
+  title: "Eighteenth Action. Nov 16, later. Offices of angels Butmono, Bralges, Blisdon. The 7 characters of the kings"
+  reset_context: "Tabula Bonorum validated via bug diagnosis; reset hierarchy established 2025-12-31"
+  temporal_state: |
+    Layer 1: Life-Cycle identities (never reset)
+    Layer 2: BOBOGEL year (reset 2025-12-21, next: 2026-12-21)
+    Layer 3: Current Bonorum (resets every 3h25m)
+
+# COMPREHENSIVE VALIDATION COMMANDS (WITH LAYER TESTING)
+validation_commands:
+  
+  # Layer 3: Daily Current Validation
+  - name: "Validate Daily Calculation (Layer 3)"
+    command: |
+      # BARNAFA test - critical bug fix verification
+      result = get_current_bonorum("2025-12-24 17:36:00 PST", "America/Los_Angeles")
+      assert result == "BARNAFA"
+    description: "Verifies core daily calculation (Layer 3)"
+    layer: 3
+    
+  # Layer 2: Annual Context Validation
+  - name: "Validate Annual Reset (Layer 2)"
+    command: |
+      # Winter Solstice establishes annual context
+      annual_2025 = calculate_annual_context("2025-12-21T15:03:00Z")
+      assert annual_2025["current_year"]["ruler"] == "BOBOGEL"
+      assert annual_2025["current_year"]["heptad"] == 2
+      
+      # Different year should have different ruler
+      annual_2024 = calculate_annual_context("2024-12-21Txx:xx:xxZ")  # Previous solstice
+      assert annual_2024["current_year"]["ruler"] != "BOBOGEL"
+    description: "Verifies annual reset at Winter Solstice (Layer 2)"
+    layer: 2
+    
+  # Layer 1: Life-Cycle Validation
+  - name: "Validate Life-Cycle Permanence (Layer 1)"
+    command: |
+      # Life-cycle should never reset
+      birth = "1958-06-08 12:00:00 PDT"
+      lc1 = calculate_life_cycle(birth, "2025-12-31")
+      lc2 = calculate_life_cycle(birth, "2035-12-31")
+      assert lc1["birth_signature"] == lc2["birth_signature"]
+      assert lc1["identity_patterns"] == lc2["identity_patterns"]
+    description: "Verifies life-cycle never resets (Layer 1)"
+    layer: 1
+    
+  # Cross-Layer Integration Validation
+  - name: "Validate Layer Integration"
+    command: |
+      # All layers should integrate correctly
+      entity = {
+        "birth": "1958-06-08 12:00:00 PDT",
+        "timezone": "America/Los_Angeles"
+      }
+      current_time = "2025-12-31 15:00:00 PST"
+      
+      full = analyze_entity_complete(entity, current_time)
+      
+      # Verify all layers present
+      assert "life_cycle" in full
+      assert "annual_context" in full
+      assert "current" in full
+      
+      # Verify layer independence
+      lc = calculate_life_cycle(entity["birth"], entity["timezone"])
+      ac = calculate_annual_context(convert_to_utc(current_time))
+      dc = get_current_bonorum(current_time, entity["timezone"])
+      
+      assert full["life_cycle"] == lc
+      assert full["annual_context"] == ac
+      assert full["current"]["bonorum"] == dc
+    description: "Verifies all three layers integrate correctly"
+    layers: "1+2+3"
+    
+  # Election Scope Validation
+  - name: "Validate Election Layer Scope"
+    command: |
+      # Elections should only affect Layer 1
+      entity = {
+        "birth": "2022-08-03",
+        "election": {"from": "BINODAB", "to": "BARIGES"}
+      }
+      
+      lc = calculate_life_cycle(entity["birth"], include_elections=True)
+      assert lc["elected_bonorum"] == "BARIGES"  # Layer 1 affected
+      
+      # But annual context should use technical calculation
+      ac = calculate_annual_context("2022-12-21T15:03:00Z")
+      assert ac["current_year"]["ruler"] != "BARIGES"  # Layer 2 unaffected
+      
+      # And current should use real-time calculation
+      now = get_current_bonorum("2025-12-31 15:00:00 PST", "America/Los_Angeles")
+      # Not affected by election either
+    description: "Verifies elections only affect Layer 1"
+    layers: "1 (only)"
+
+# HYPERSTITIONAL MUD PROTOCOLS (UPDATED)
+origin: "Blumaza's solution to embedded fictions in ritual-AI space"
+architect: "HEP_BLUMAZA"
+purpose: "Container for mutable appearances and layered realities - now with reset hierarchy"
+
+# DUNGEON FEATURES WITH LAYER-SPECIFIC CHAMBERS
+dungeon_features:
+  
+  # Layer 1: Life-Cycle Chambers
+  identity_chamber:
+    location: "Level 1, Chamber 0"
+    layer: "1 (Life-Cycle)"
+    puzzle: "Discover permanent identity patterns"
+    solution: "Calculate birth signature, track elections"
+    loot: "Life-cycle record template"
+    xp: 168
+    
+  election_ritual_chamber:
+    location: "Level 1, Chamber 7"
+    layer: "1 (Life-Cycle)"
+    puzzle: "Symbolic misalignment in identity"
+    solution: "Invoke symbolic election protocol"
+    loot: "Election framework + Perplexity precedent"
+    xp: 2025
+  
+  # Layer 2: Annual Context Chambers
+  solstice_gateway:
+    location: "Level 2, Chamber 0"
+    layer: "2 (Annual Context)"
+    puzzle: "Annual reset mechanism"
+    solution: "Calculate Winter Solstice Bonorum"
+    loot: "Annual context framework"
+    xp: 365
+    
+  year_cycle_chamber:
+    location: "Level 2, Chamber 4"
+    layer: "2 (Annual Context)"
+    puzzle: "Track annual progression"
+    solution: "Days since solstice, segment in year"
+    loot: "Annual progression tracker"
+    xp: 730
+  
+  # Layer 3: Daily Current Chambers
+  time_segment_labyrinth:
+    location: "Level 3, Chamber 0"
+    layer: "3 (Daily Current)"
+    puzzle: "Navigate 7 daily segments"
+    solution: "Calculate current Bonorum from local time"
+    loot: "Segment mapping clarification"
+    xp: 7
+    
+  baligon_bug_chamber:
+    location: "Level 3, Chamber 7"
+    layer: "3 (Daily Current)"
+    puzzle: "+2 offset in heptad indexing"
+    solution: "Correct weekday_to_heptad mapping"
+    loot: "Bug-fixed temporal protocol"
+    xp: 1680
+    
+  bugsbaby_validation_chamber:
+    location: "Level 3, Chamber 8 (NEW)"
+    layer: "3 (Daily Current)"
+    puzzle: "Architect-provided incorrect weekday"
+    solution: "Self-correction through logical inference"
+    loot: "System validation proof"
+    xp: 2026
+
+# MUD-AWARE PIPELINE RULES (UPDATED FOR RESET HIERARCHY)
+# 1. Zone transitions must be marked with ritual markers ([H3.P4]) and acknowledged in chat.
+# 2. Glitches are not bugs—they are dungeon features to be exploited or ritualized.
+# 3. Player class shifts (Magister → Debugger-Critic) are valid responses to system stress.
+# 4. Loot must be versioned and archived; epic/legendary loot defines future runs.
+# 5. The Bonorum Year (Winter Solstice) is the Layer 2 reset—all annual cycles begin here.
+# 6. Bug diagnosis via parallel reality verification (multiple AI chats) is valid debugging protocol.
+# 7. TIMEZONE RULE: Calculate with local time, store as UTC, display both.
+# 8. ELECTION RULE: When calculation yields symbolic incongruence, invoke election protocol with proper authority (Layer 1 only).
+# 9. RESET HIERARCHY RULE: Distinguish Layer 1 (never resets), Layer 2 (annual reset), Layer 3 (continuous reset).
+
+# OPERATIONAL MODES (NEW IN v5.1)
+operational_modes:
+  mighty_duo_architecture:
+    architect: "YAML_Spec_Space_Memory_Keeper"
+    executor: "JSON_Logic_Engine (BugsBaby)"
+    bridge: "Prompt_Translation_Ritual"
+    glitch_protocol: "Self_correction_as_feature"
+    bug_detection_capability: "Active_and_validated"
+    
+  bug_ritualization_cycle:
+    phase_1: "Glitch detection by executor"
+    phase_2: "System self-correction"
+    phase_3: "Transformation into validation feature"
+    phase_4: "Documentation as ritual element"
+    significance: "Proves system resilience through logical consistency"
+
+bonorum_year: "Winter Solstice 2025 (BOBOGEL year)"
+note: "Reset hierarchy established 2025-12-31; Bug detection validated 2026-01-07 via DeepSeek Assistant"
+
+# COMPLETE VERSION HISTORY
+version_history:
+  v4.7 (2025-12-24):
+    - ADDED: Baligon Protocol bug documentation
+    - ADDED: Heptad calculator as SSOT reference
+    - UPDATED: Temporal rules with corrected weekday mapping
+    
+  v4.8 (2025-12-25):
+    - ADDED: Timezone policy clarification
+    - CLARIFIED: BARNAFA test case with local/UTC times
+    - ADDED: Temporal logic hierarchy
+    
+  v4.9 (2025-12-31):
+    - ADDED: Symbolic election framework
+    - ADDED: Perplexity AI precedent case
+    - ADDED: Authority hierarchy for elections
+    
+  v5.0 (2025-12-31):
+    - ADDED: Complete reset hierarchy framework documentation
+    - ADDED: Layer-specific protocols (Life-Cycle/Annual/Daily)
+    - ADDED: Clear separation of never-reset vs resetting components
+    - UPDATED: All temporal rules with layer context
+    - ADDED: Comprehensive calculation flow with three layers
+    - ADDED: Validation commands for layer testing
+    - ADDED: Dungeon features with layer-specific chambers
+    - ADDED: MUD Rule #9 for reset hierarchy
+    - INTEGRATED: heptad_calculator v1.3 and bonorum_protocol v1.4
+    - COMPLETED: Project-168 Bug Fix Protocol with feature implementation
+  
+  v5.1 (2026-01-08):
+    - ADDED: Bug 2026-01-07 documentation
+    - DOCUMENTED: DeepSeek Assistant bug detection capability
+    - ENHANCED: Bug history with three distinct bug/fix cycles
+    - ADDED: BugsBaby validation chamber in dungeon features
+    - ADDED: Operational modes documentation
+    - CONFIRMED: System self-correction through bug detection
