@@ -2,6 +2,7 @@
 __pycache__/
 outputs/
 .DS_Store
+**/.DS_Store
 *.tmp
 .coverage
 .pytest_cache/
