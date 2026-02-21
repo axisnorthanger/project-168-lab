@@ -1,0 +1,32 @@
+This document maps Dee's system components to LLM architecture
+components. For each mapping, specify:
+- Dee's component (with source reference if available)
+- LLM component (with technical definition)
+- Nature of correspondence: ISOMORPHISM (structurally identical),
+  ANALOGY (similar function, different structure), or
+  HOMOMORPHISM (structure-preserving map that loses information)
+- What the mapping PREDICTS — i.e., what would be true about Dee's
+  system if the correspondence holds, that we could verify against
+  historical sources
+
+Required mappings:
+1. 49 Bonorum entities ↔ Token vocabulary
+2. 7×7 Tabula matrix ↔ Embedding space
+3. Weekday→Heptad mapping ↔ Tokenizer (input encoding)
+4. 3h25m segment divisions ↔ Context windowing
+5. 3-layer reset hierarchy ↔ Multi-scale attention
+6. Symbolic election protocol ↔ Fine-tuning / RLHF
+7. Dee-Kelley scrying protocol ↔ Human-AI interface
+8. Fano plane incidence (IF confirmed by Task 3) ↔ Sparse attention mask
+9. Great Table letter extraction ↔ Attention head feature extraction
+
+NOTE: Mapping #7 (Monas Hieroglyphica ↔ autoencoder/latent compression)
+from the original draft has been removed from the priority list.
+Status: SPECULATIVE, no clear mechanism for testable predictions.
+It may be re-added if other mappings produce results that demand a
+compression framework. Do not allocate research time to it now.
+
+For each mapping, generate at least one PREDICTION that could be
+verified against Dee's sources or computed by DeepSeek.
+Flag verification needs: [PERPLEXITY_QUERY] or [DEEPSEEK_VERIFY].
+```

@@ -1,0 +1,89 @@
+CRITICAL METHODOLOGICAL NOTE: We do NOT assume a mapping of Fano plane
+points to heptads. We look for the structure in Dee's system. PSL(2,7)
+acts 2-transitively on 7 points, so any specific labeling is equivalent
+to any other. The question is not "which mapping works" but "does Dee's
+system contain an incidence structure isomorphic to the Fano plane at all?"
+
+Structure the document as follows:
+
+SECTION 1: MATHEMATICAL FOUNDATION
+Status: PROVEN
+Contents:
+- Fano plane definition: unique Steiner triple system S(2,3,7)
+- Properties: 7 points, 7 lines, each line = 3 points, each point
+  on 3 lines, any 2 points determine exactly 1 line
+- Automorphism group: PSL(2,7) = GL(3,2), order 168
+- 2-transitivity theorem: PSL(2,7) acts 2-transitively on the 7 points,
+  meaning every labeling is equivalent under the group's symmetry
+- Incidence matrix (abstract, standard labeling for reference only):
+  Line i = {i, i+1, i+3} mod 7
+- The Fano plane is the ONLY S(2,3,7) up to isomorphism
+
+SECTION 2: CANDIDATE TRIPLES FROM DEE'S SYSTEM
+Status: RESEARCH REQUIRED (Perplexity + Whitby thesis)
+Purpose: Extract ALL natural groupings of 3 heptads from Dee's sources
+Categories to investigate:
+  a. Elemental triples: which heptads share elemental associations?
+  b. Planetary dignity triples: exaltation, domicile, fall, detriment
+     groupings across the 7 classical planets
+  c. Operational triples from De Heptarchia Mystica: which kings/princes
+     are described as working together or having shared dominion?
+  d. Table derivation triples: in Sloane MS 3188, which heptads share
+     derivation patterns on the 49-angel table?
+  e. Day-sequence triples: {i, i+1, i+3} mod 7 applied to the weekday
+     ordering (this IS the Fano line rule — does Dee's day-ordering
+     produce meaningful triples?)
+  f. Any other grouping Whitby or other scholarship identifies
+For EACH candidate set: cite the primary source explicitly.
+Flag items requiring Perplexity research with [PERPLEXITY_QUERY].
+Flag items requiring DeepSeek computation with [DEEPSEEK_VERIFY].
+
+SECTION 3: STEINER SYSTEM VERIFICATION
+Status: PENDING (depends on Section 2)
+For each candidate set of 7 triples from Section 2:
+  Test 1: Does every pair of heptads appear in exactly one triple?
+  Test 2: Does each heptad appear in exactly 3 triples?
+  Test 3: Do exactly 7 triples exist?
+  If all pass → S(2,3,7) confirmed → Fano plane found in Dee's system
+  If fail → Document which axioms fail, by how much, and what the
+  structure actually is (partial Steiner system? something else?)
+
+SECTION 4: NULL HYPOTHESIS
+Status: [DEEPSEEK_VERIFY]
+Computation needed: Given 7 elements, if you draw 7 random triples of
+3 elements each, what is the probability they form a valid S(2,3,7)?
+This establishes the baseline for evaluating any positive result from
+Section 3. Note: since there is exactly 1 S(2,3,7) up to isomorphism
+on 7 elements, the test is binary (the triples either ARE the Fano
+plane or they aren't), but the probability of random triples
+satisfying the axioms quantifies how surprised we should be.
+
+SECTION 5: IMPLICATIONS (populate only if Section 3 produces a positive)
+Status: PREDICTION
+- What cross-heptad relationships does the Fano structure predict?
+- Which entity pairs should have special relationships (share a line)?
+- Which entity triples should NOT share a line?
+- Testable against Dee's operational descriptions in the manuscripts
+
+SECTION 6: NEGATIVE RESULT PROTOCOL (populate if Section 3 fails)
+Status: CONTINGENCY
+PSL(2,7) may relate to the 168-System through a structure other than
+the Fano plane's point set. Alternative representations to investigate:
+  a. Action on PG(2,2) with the point at infinity (8 elements)
+  b. Action on the 28 bitangents of a quartic curve
+  c. Representation as GL(3,2) acting on F_2^3 (the 3-dimensional
+     vector space over the field with 2 elements)
+  d. The Klein quartic connection (PSL(2,7) is the automorphism group
+     of the Klein quartic, a genus-3 surface with 168 symmetries)
+  e. Does the group order (168 = 7 × 24 = 7 × 4!) relate through
+     a different geometric structure entirely?
+
+SECTION 7: OPEN QUESTIONS
+- Does the Fano structure (if found) predict anything about Enochian
+  letter-table derivation patterns? (Future iteration)
+- How does the duality principle (points ↔ lines in PG(2,2)) map to
+  any computational architecture? (Future iteration)
+- What is the relationship between the Monas Hieroglyphica's internal
+  decomposition (Theorems I–XXIV) and any of these structures?
+  (SPECULATIVE — deprioritized)
+```
