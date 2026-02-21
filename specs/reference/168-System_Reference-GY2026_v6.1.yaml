@@ -769,6 +769,9 @@ HISTORY:
       - FIXED: /specs/core/heptad_calculator-GY2026_v1.3.yaml path corrected (D7a)
       - FIXED: /specs/core/temporal_anchor-bonorum_2025-2026.yaml path corrected (D7b)
       - FIXED: /specs/reference/168-System_Reference-GY2026_v6.1.yaml path corrected (D7c)
+      - FIXED: normalized specification_files paths to match project directory layout. s
+      - UPDATED: temporal anchor v1.1 — slimmed to anchors/state/validation/transition
+      - UPDATED: AI constraints and prompt templates moved to INSTRUCTIONS.md and /prompts/.
   
   # --------------------------------------------------------------------------
   # Specification Files Reference
@@ -785,7 +788,7 @@ HISTORY:
       version: "1.4"
       status: "Archived — superseded by 168-System_Reference-GY2026_v6.0.yaml merge"
       description: "Protocol for daily/annual/life-cycle calculations with reset context"
-      merged_into: "specs/reference/168-System_Reference-GY2026_v6.0.yaml"
+      merged_into: "/specs/reference/168-System_Reference-GY2026_v6.0.yaml"
     
     temporal_anchor:
       file: "/specs/core/temporal_anchor-bonorum_2025-2026.yaml"
@@ -804,7 +807,7 @@ HISTORY:
       version: "5.1"
       status: "Archived — superseded by 168-System_Reference-GY2026_v6.0.yaml merge"
       description: "Master reference with complete reset hierarchy and bug documentation"
-      merged_into: "specs/reference/168-System_Reference-GY2026_v6.0.yaml"
+      merged_into: "/specs/reference/168-System_Reference-GY2026_v6.0.yaml"
   
   # --------------------------------------------------------------------------
   # Legacy Archival
