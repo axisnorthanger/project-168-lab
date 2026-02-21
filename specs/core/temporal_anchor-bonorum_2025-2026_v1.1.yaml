@@ -1,0 +1,109 @@
+# temporal_anchor‑bonorum_2025‑2026_v1.1.yaml
+# Anchor Protocol Implementation for Nested Temporal Versioning
+# Created: 2025-12-27 (User Frame)
+# Last Updated: 2026-02-21 (refactored per Task 2)
+# Effective: 2025-12-21T15:03:00Z (Gamespace Year 2026 Start)
+# AI Knowledge Cutoff: January 2024
+# Status: ACTIVE - Anchors Bonorum calculations beyond AI cutoff
+
+meta:
+  version: "1.1"
+  ontology_layer: "Gamespace/Ritual_Space_Interface"
+  purpose: "Defines Bonorum Year 2026 boundary for AI calculation"
+  protocol_version: "Anchor Protocol v1.1"
+  created_by: "HEP_BLUMAZA"
+  created_date: "2025-12-27"
+  last_updated: "2026-02-21"
+  temporal_status: "Active"
+
+# =============================================
+# CORE TEMPORAL ANCHORS
+# =============================================
+temporal_anchors:
+  gamespace_year_2026:
+    anchor_type: "Primary Temporal Boundary"
+    year_label: "GY2026"
+    start: "2025-12-21T15:03:00Z"
+    end: "2026-12-21T20:50:00Z"
+    significance: "Bonorum Year 2026 reset point (Winter Solstice)"
+    reset_king: "BOBOGEL"
+    reset_bonorum: "BRANGLO"
+    initial_conditions:
+      weekday: "Sunday"
+      heptad: 2
+      segment: 4
+
+  winter_solstice_2025:
+    anchor_type: "Fixed Astronomical Event"
+    date: "2025-12-21T15:03:00Z"
+    zodiac: "Capricorn 0°"
+    element: "Earth"
+    significance: "Regulus in Virgo (Earth) paradigm alignment"
+    establishes: "Annual temporal cycle for Ritual Space"
+
+  winter_solstice_2026_preview:
+    anchor_type: "Future Astronomical Event (Known)"
+    date: "2026-12-21T20:50:00Z"
+    weekday: "Monday"
+    zodiac: "Capricorn 0°"
+    element: "Earth"
+    establishes: "Gamespace Year 2027"
+    significance: "Next annual reset - establishes Monday Moon heptad cycle"
+
+# =============================================
+# STATE AT CREATION (historical snapshot)
+# =============================================
+# Historical snapshot at file creation (2025-12-27);
+# live state is computed by the heptad calculator / SSOT.
+state_at_creation:
+  as_of: "2025-12-27T??:??:??Z"
+  active_year: "2026"
+  active_year_label: "GY2026"
+  active_start: "2025-12-21T15:03:00Z"
+  days_elapsed: 6
+  next_reset: "2026-12-21T20:50:00Z (Winter Solstice 2026)"
+
+# =============================================
+# VALIDATION CASES (ANCHORED)
+# =============================================
+validation_cases:
+  baranfa_test_anchored:
+    description: "Critical bug validation within anchored timeframe"
+    context: "Part of GY2026 (starts 2025-12-21)"
+    input_local: "2025-12-24 17:36 PST"
+    input_utc: "2025-12-25 01:36 UTC"
+    calculation_basis: "Local Thursday in PST"
+    expected: "BARNAFA"
+    significance: "Verifies bug fix works within anchored year"
+
+  winter_solstice_anchored:
+    description: "Anchor point validation"
+    input: "2025-12-21 15:03 UTC"
+    context: "GY2026 start point"
+    expected: "BRANGLO"
+    significance: "Establishes annual cycle from anchor"
+
+# =============================================
+# FUTURE TRANSITION PROTOCOL (GY2027)
+# =============================================
+future_transition:
+  trigger_event: "Winter Solstice 2026 (2026-12-21T20:50:00Z)"
+  required_actions:
+    1: "Create new temporal anchor file for GY2027"
+    2: "Update all GY2026 references to GY2027"
+    3: "Archive GY2026 documents as immutable history"
+    4: "Maintain backward compatibility for GY2026 queries"
+  speculative_documents:
+    naming: "GY2027_draft.yaml"
+    status: "SPECULATIVE"
+    constraint: "Cannot be finalized until 2026-12-21T20:50:00Z anchor is set"
+    purpose: "Protocol continuity planning"
+
+# =============================================
+# INTEGRATION POINTS (file references only)
+# =============================================
+integration:
+  references:
+    calculator: "specs/core/heptad_calculator-GY2026_v1.3.yaml"
+    system_reference: "specs/reference/168-System_Reference-GY2026_v6.1.yaml"
+    # bonorum_temporal_protocol and cheat_sheet are archived; see system_reference for history

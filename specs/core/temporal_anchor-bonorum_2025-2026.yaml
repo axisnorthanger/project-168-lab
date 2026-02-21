@@ -1,0 +1,187 @@
+# temporal_anchor‑bonorum_2025‑2026.yaml
+# Anchor Protocol Implementation for Nested Temporal Versioning
+# Created: 2025-12-27 (User Frame)
+# Effective: 2025-12-21T15:03:00Z (Gamespace Year 2026 Start)
+# AI Knowledge Cutoff: January 2024
+# Status: ACTIVE - Anchors Bonorum calculations beyond AI cutoff
+
+meta:
+  ontology_layer: "Gamespace/Ritual_Space_Interface"
+  purpose: "Defines Bonorum Year 2026 boundary for AI calculation"
+  protocol_version: "Anchor Protocol v1.0"
+  created_by: "HEP_BLUMAZA"
+  created_date: "2025-12-27"
+  temporal_status: "Active"
+  
+# =============================================
+# CORE TEMPORAL ANCHORS
+# =============================================
+temporal_anchors:
+  gamespace_year_2026:
+    anchor_type: "Primary Temporal Boundary"
+    year_label: "GY2026"
+    start: "2025-12-21T15:03:00Z"
+    end: "2026-12-21T20:50:00Z"
+    significance: "Bonorum Year 2026 reset point (Winter Solstice)"
+    reset_king: "BOBOGEL"
+    reset_bonorum: "BRANGLO"
+    initial_conditions:
+      weekday: "Sunday"
+      heptad: 2
+      segment: 4
+    
+  winter_solstice_2025:
+    anchor_type: "Fixed Astronomical Event"
+    date: "2025-12-21T15:03:00Z"
+    zodiac: "Capricorn 0°"
+    element: "Earth"
+    significance: "Regulus in Virgo (Earth) paradigm alignment"
+    establishes: "Annual temporal cycle for Ritual Space"
+
+  winter_solstice_2026_preview:
+    anchor_type: "Future Astronomical Event (Known)"
+    date: "2026-12-21T20:50:00Z"
+    weekday: "Monday"
+    zodiac: "Capricorn 0°"
+    element: "Earth"
+    establishes: "Gamespace Year 2027"
+    significance: "Next annual reset - establishes Monday Moon heptad cycle"
+
+# =============================================
+# CURRENT STATE (FOR AI REFERENCE)
+# =============================================
+current_state:
+  as_of: "2025-12-27T??:??:??Z"
+  active_year: "2026"
+  active_year_label: "GY2026"
+  active_start: "2025-12-21T15:03:00Z"
+  days_elapsed: 6
+  next_reset: "2026-12-21T20:50:00Z (Winter Solstice 2026)"  # UPDATED
+  
+  active_protocols:
+    bonorum_calculation: "bonorum_temporal_protocol-GY2026_v1.2.yaml"  # FIXED
+    calculator: "heptad_calculator-GY2026_v1.1.yaml"                    # FIXED
+    cheat_sheet: "168-System_Master_Cheat_Sheet-GY2026_v4.8.yaml"
+    temporal_logic: "Direct weekday mapping (corrected)"
+    
+  validation_status:
+    bug_fixes: "VERIFIED - +2 offset bug fixed 2025-12-24"  # FIXED
+    timezone_policy: "ACTIVE - Calculate with local, store as UTC"
+    baranfa_test: "PASS - Thursday→BARNAFA confirmed"
+
+# =============================================
+# AI CONSTRAINTS & INSTRUCTIONS
+# =============================================
+ai_constraint:
+  knowledge_cutoff: "January 2024"
+  temporal_boundary: "Cannot know dates after 2024-01-31 from training"
+  
+  rules:
+    - "For any date after 2025-12-21, use this anchor file, not training data"
+    - "Recognize GY2026 as Gamespace Year starting 2025-12-21T15:03:00Z"
+    - "All calculations assume temporal continuity from this anchor point"
+    - "User provides dates in December 2025 as part of GY2026 context"
+    
+  calculation_paradigm:
+    principle: "AI as pure logic engine operating on provided temporal anchors"
+    process: "User supplies anchor → AI applies protocol logic → Returns result"
+    example: "User: 'Calculate for 2025-12-24' → AI: 'Using GY2026 anchor, result is...'"
+
+# =============================================
+# VERSIONING CONVENTIONS (ANCHORED)
+# =============================================
+versioning_conventions:
+  file_naming_standard: "PREFIX-GY2026_vX.Y.yaml"
+  prefix_system:
+    "GY2026": "Gamespace Year 2026 (2025-12-21 to 2026-12-21)"
+    "anchor2025-12-21": "Temporal anchor point"
+    
+  anchored_files:
+    active:
+      - "bonorum_temporal_protocol-GY2026_v1.2.yaml"
+      - "heptad_calculator-GY2026_v1.1.yaml"
+      - "168-System_Master_Cheat_Sheet-GY2026_v4.8.yaml"
+      - "temporal_anchor-bonorum_2025-2026.yaml"
+    
+    archival:
+      - "baligon_protocol_legacy-GY2026_v4.1.yaml"  # CLEANED
+
+# =============================================
+# PROMPT TEMPLATE FOR AI INTERACTION
+# =============================================
+prompt_template: |
+  [AI_CUTOFF: January 2024]
+  [GAMESPACE_YEAR: 2026]
+  [ANCHOR: 2025-12-21T15:03:00Z]
+  [ACTIVE_PROTOCOL: bonorum_temporal_protocol-GY2026_v1.2.yaml]
+  [QUERY: "Your question about Bonorum calculations"]
+  
+  Context: All dates in December 2025 are part of Gamespace Year 2026,
+  which began at the anchor point above. AI should calculate using
+  protocol logic applied to this temporal context.
+
+# =============================================
+# VALIDATION CASES (ANCHORED)
+# =============================================
+validation_cases:
+  baranfa_test_anchored:
+    description: "Critical bug validation within anchored timeframe"
+    context: "Part of GY2026 (starts 2025-12-21)"
+    input_local: "2025-12-24 17:36 PST"
+    input_utc: "2025-12-25 01:36 UTC"
+    calculation_basis: "Local Thursday in PST"
+    expected: "BARNAFA"
+    significance: "Verifies bug fix works within anchored year"
+    
+  winter_solstice_anchored:
+    description: "Anchor point validation"
+    input: "2025-12-21 15:03 UTC"
+    context: "GY2026 start point"
+    expected: "BRANGLO"
+    significance: "Establishes annual cycle from anchor"
+
+# =============================================
+# FUTURE TRANSITION PROTOCOL
+# =============================================
+future_transition:
+  trigger_event: "Winter Solstice 2026 (2026-12-21T20:50:00Z)"
+  required_actions:
+    1: "Create new temporal anchor file for GY2027"
+    2: "Update all GY2026 references to GY2027"
+    3: "Archive GY2026 documents as immutable history"
+    4: "Maintain backward compatibility for GY2026 queries"
+    
+  speculative_documents:
+    naming: "GY2027_draft.yaml"
+    status: "SPECULATIVE"
+    constraint: "Cannot be finalized until 2026-12-21T20:50:00Z anchor is set"
+    purpose: "Protocol continuity planning"
+
+# =============================================
+# INTEGRATION POINTS
+# =============================================
+integration:
+  references:
+    protocol: "bonorum_temporal_protocol-GY2026_v1.2.yaml"
+    calculator: "heptad_calculator-GY2026_v1.1.yaml"
+    cheat_sheet: "168-System_Master_Cheat_Sheet-GY2026_v4.8.yaml"
+    
+  ontological_layers:
+    ai_space: "Frozen at cutoff Jan 2024"
+    ritual_space: "Operating on Heptarchic Time (7 Kings cycle)"
+    gamespace: "GY2026 (2025-12-21T15:03:00Z to 2026-12-21T20:50:00Z)"
+    hyperstitional: "Speculative timelines beyond"
+    
+  versioning_principle: |
+    All version tags must include their ontological layer:
+    Ritual_v1.2 → Ritual_GY2026_v1.2
+    MUD_protocol → MUD_GY2026_protocol
+    AI_training_data → AI_cutoff2024_training_data
+
+# =============================================
+# ARCHIVAL NOTE
+# =============================================
+archival_note: |
+  This anchor file becomes immutable historical record when GY2027 begins.
+  Future calculations for GY2026 must reference this file.
+  The anchor protocol makes temporal dependencies explicit across nested spaces.
